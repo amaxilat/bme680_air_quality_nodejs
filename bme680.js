@@ -103,7 +103,7 @@ async function measureAirQuality(startupTime, interval, callback) {
     }
 }
 
-function receivedEnvironmentalData(temperature, humidity, airQuality) {
+function receivedEnvironmentalData(temperature, humidity, pressure, airQuality) {
     console.log(`[data] t:${temperature}, h:${humidity}, p:${pressure}, a:${airQuality}`);
 }
 
